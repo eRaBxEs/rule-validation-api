@@ -1,0 +1,14 @@
+###
+GET http://localhost:8000/
+
+
+###
+POST http://localhost:8000/validate-rule
+Content-Type: application/json;charset=UTF-8
+
+
+{
+    "amount": 8000
+}
+
+###
